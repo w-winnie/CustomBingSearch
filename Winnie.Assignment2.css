@@ -1,0 +1,40 @@
+body{
+    background-color: floralwhite;
+}
+h1{
+    text-align: center;
+    color: coral;
+}
+form{
+    background-color:bisque;
+    font-size: +2em;
+    margin: 5% 30%;
+    padding: 2%;
+}
+input[type=text]{
+    margin: 5%;
+    padding: 5px;
+    background-color:bisque;
+    color: chocolate;
+}
+input[type=text]:focus{
+    margin: 5%;
+    padding: 5px;
+    background-color:white;
+    color: chocolate;
+}
+input[type=button]{
+    padding: 2%;
+    margin: 5% 35%;
+    background-color:darksalmon;
+    color:darkred;
+    font-size: +1em;
+}
+input[type=button]:focus{
+    padding: 2%;
+    margin: 5% 35%;
+    background-color: salmon;
+    color:crimson;
+    font-size: +1em;
+}
+

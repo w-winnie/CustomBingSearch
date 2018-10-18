@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!--html file to input user values for a bing search -->
+<html>
+<head> 
+    <title>Assignment 2</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Winnie.Assignment2.css" type="text/css">
+    <script type="application/javascript" src="Winnie.Assignment2.js">  
+    </script> 
+</head>
+<body>
+  <h1>This site is For Bing search</h1> 
+    <form action="/result.Winnie.Assignment2.html" method="get" name="myForm">
+        <fieldset>
+        <legend>Enter the details: </legend>
+        Name: 
+        <input type="text" name="myName"><br>
+        Search:
+        <input type="text" name="mySearch"><br>
+        Enter the width of screen:<br>
+        <input type="radio" name="myWidth" value="25">25<br>
+        <input type="radio" name="myWidth" value="50">50<br>
+        <input type="radio" name="myWidth" value="75">75<br>
+        <input type="radio" name="myWidth" value="100">100<br>
+        Enter the height of screen:<br>
+        <input type="radio" name="myHeight" value="200">200<br>
+        <input type="radio" name="myHeight" value="400">400<br>
+        <input type="radio" name="myHeight" value="500">500<br>
+        <input type="radio" name="myHeight" value="600">600<br>    
+       </fieldset>
+    <input type="button" name="myButton" value="Search" onclick="testResults(this.form)">
+    </form>
+</body>
+</html>
